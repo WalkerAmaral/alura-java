@@ -1,0 +1,18 @@
+package teste;
+public class TestaImposto {
+
+	public static void main(String[] args) {
+
+		modelo.ContaCorrente cc = new modelo.ContaCorrente(222, 0010);
+		cc.deposita(100);
+		
+		modelo.SeguroDeVida seguro = new modelo.SeguroDeVida();
+		
+		modelo.CalculadorImposto calc = new modelo.CalculadorImposto();
+		calc.registra(seguro);
+		calc.registra(cc);
+		
+		System.out.println(calc.getTotalImposto());
+	}
+
+}

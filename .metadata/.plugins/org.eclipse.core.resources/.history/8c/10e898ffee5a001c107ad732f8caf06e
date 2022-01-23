@@ -1,0 +1,16 @@
+package exercicios;
+
+public class QuartoExercicio {
+
+	public static void main(String[] args) {
+	
+		double valor1;
+		double quant1;
+		double valor2;
+		double quant2;
+		double IPI;
+		System.out.println(valor1*quant1 + valor2*quant2)*(IPI/100 + 1);
+
+	}
+
+}

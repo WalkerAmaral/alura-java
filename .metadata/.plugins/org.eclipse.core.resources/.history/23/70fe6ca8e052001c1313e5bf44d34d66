@@ -1,0 +1,11 @@
+package programasJava;
+
+public class Programa {
+	
+	public static void main(String[] args) {
+		
+		int numero[] = (int)1, 2;
+		System.out.println(numero[1]);
+		
+	}
+}

@@ -1,0 +1,18 @@
+package exercicios;
+
+import java.util.Scanner;
+
+public class OitavoExercicio {
+
+	public static void main(String[] args) {
+
+		int[] numero = {};
+		Scanner entrada = new Scanner(System.in);
+		int i = 0;
+		numero[i] = entrada.nextInt();
+
+		
+		System.out.println(numero[1]);
+	}
+
+}

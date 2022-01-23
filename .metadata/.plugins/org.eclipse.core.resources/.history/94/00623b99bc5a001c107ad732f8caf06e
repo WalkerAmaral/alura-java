@@ -1,0 +1,17 @@
+package br.com.bytebank.banco.teste;
+
+public class TesteString {
+
+	public static void main(String[] args) {
+		
+		String nome = "Alura";//object literal
+		
+		nome.replace(1, 'a');
+		
+		System.out.println(nome);
+		
+		
+
+	}
+
+}

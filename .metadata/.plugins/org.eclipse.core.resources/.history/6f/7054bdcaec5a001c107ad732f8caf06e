@@ -1,0 +1,11 @@
+package exercicios;
+
+public class PrimeiroExercicio {
+
+	int ano = 3;
+	int meses = 2;
+	int dias = 15;
+
+	System.out.println(ano * 365 + meses * 30 + dias);
+	System.out.println("Alu");
+}

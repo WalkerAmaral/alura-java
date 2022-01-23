@@ -1,0 +1,30 @@
+package br.com.bytebank.banco.teste.util;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		
+		
+		Integer idadeRef = Integer.valueOf(29);
+		
+		System.out.println(idadeRef.doubleValue());
+		
+		
+		
+		
+		String s = args[0];
+		
+		//Integer numero = Integer.valueOf(s);
+		//int numero = Integer.parseInt(s);
+		
+		System.out.println(numero + 10);
+		
+		List<Integer> numeros = new ArrayList<Integer>();
+		numeros.add(idadeRef);
+		numeros.add(29); //Autoboxing
+		
+	}
+}
